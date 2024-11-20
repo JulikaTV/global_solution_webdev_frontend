@@ -26,7 +26,7 @@ Criamos um site que além de permitir a livre jogatina, também traga para o jog
 
 **𝘊𝘰𝘮𝘰 𝘌𝘭𝘦𝘴 𝘍𝘶𝘯𝘤𝘪𝘰𝘯𝘢𝘮 𝘦𝘮 𝘊𝘰𝘯𝘫𝘶𝘯𝘵𝘰🍃**
 
-O Arduino servira para fazer uma conexão direta entre o projeto fisíco com o código que irá ditar os comandos. Quando a tmperatura e a umidade estiverem a baixo do ideal para uma boa condiçao da colheita, o buzzer ira emitir um som de alerta e uma mensagem ira aparecer na tela, caso o led verde fique acesso, isso quer dizer que a coleita esta em um ambiente adeuqado para cultivo e o servo motor ira fazer uma simulação de irrigação da horta, e quando o led estiver amarelo o buzzer irá acionar assim como no vermelho e uma mensagem também irá aparecer indicando possível perda.
+O Figma funcionara como uma base visual, mas não apenas isso como ele também irá fornecer os códigos para passar para o CSS. Tendo uma base visual o HTMl será a base de estruturação do site, sendo as páginas q iremos vizualizar do site, mas a estilização estará nos códigos CSS onde cada página HTML irá ter sua própria assim como o Java Script terá a sua propria página HTML que irá de conjunto com o CSS. No site criado, o Java Script servirá para mostrar os alerts do site.
 
 <hr>
 
@@ -36,30 +36,44 @@ O Arduino servira para fazer uma conexão direta entre o projeto fisíco com o c
 
 <hr>
 
-**𝘋𝘢𝘥𝘰𝘴 𝘥𝘢 𝘏𝘰𝘳𝘵𝘢🍃**
+**𝘊𝘢𝘥𝘢𝘴𝘵𝘳𝘰🍃**
+
+<img src="./assets/cafe.png" alt="imagem" width="600" height="400"/>
+
+<hr>
+  
+**𝘓𝘰𝘨𝘪𝘯🍃**  
+
+<img src="./assets/frutas e hortalicas.png" alt="imagem" width="600" height="400"/>
+
+<hr>
+
+**𝘋𝘪𝘤𝘢𝘴 - 𝘌𝘯𝘦𝘳𝘨𝘪𝘢 𝘓𝘪𝘮𝘱𝘢🍃** 
+
+<img src="./assets/plantas tropicais.png" alt="imagem" width="600" height="400"/>
+
+
+<hr>
+
+**𝘋𝘪𝘤𝘢𝘴 - 𝘚𝘰𝘣𝘳𝘦 𝘰 𝘑𝘰𝘨𝘰🍃** 
+
+<img src="./assets/graos.png" alt="imagem" width="600" height="400"/>
+
+<hr>
+
+**𝘗𝘦𝘳𝘨𝘶𝘯𝘵𝘢𝘴 𝘍𝘳𝘦𝘲𝘶𝘦𝘯𝘵𝘦𝘴🍃**
 
 <img src=".//assets/dados da horta.png" alt="imagem" width="600" height="400"/>
 
 <hr>
 
-**𝘊𝘰𝘭𝘩𝘦𝘪𝘵𝘢𝘴🍃**
-<hr>
-<img src="./assets/cafe.png" alt="imagem" width="600" height="400"/>
-<img src="./assets/frutas e hortalicas.png" alt="imagem" width="600" height="400"/>
-<img src="./assets/plantas tropicais.png" alt="imagem" width="600" height="400"/>
-<img src="./assets/graos.png" alt="imagem" width="600" height="400"/>
-
-<hr>
-  
-**𝘓𝘪𝘯𝘬 𝘥𝘦 𝘈𝘤𝘦𝘴𝘴𝘰🍃**  
-https://wokwi.com/projects/414738026262732801
-
-<hr>
-
 **𝘊𝘰𝘮𝘰 𝘌𝘹𝘦𝘤𝘶𝘵𝘢𝘳 𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰🍃**  
 Para executar o projeto localmente:
-1. Clique no Link a cima 
-2. Depois de entrar na página do wokwi como o projeto aperte no play
+1. Copie o códgo apresentado quando apertar o botão "<> Code"
+2. Cole o código no seu Github desktop ou no terminal do seu VSCode utilizando "git clone url_do_repositório_do_site"
+3. Depois de seguir os passos a cima clique na página index.html
+4. Clique na aba superior em "View" e depois em "Explorer".
+5. Caso queira um modo mais fácil de acessar o site, baixe a extensão "Live Server" ainda dentro do VSCode na aba lateral chamada "extensions" 
 
 <hr>
 
