@@ -1,4 +1,4 @@
-<h1 align="center">🌱Global Solution - Web Dev and Front End🌱</h1>
+<h1 align="center">🌱𝙶𝚕𝚘𝚋𝚊𝚕 𝚂𝚘𝚕𝚞𝚝𝚒𝚘𝚗 - 𝚆𝚎𝚋 𝙳𝚎𝚟 𝚊𝚗𝚍 𝙵𝚛𝚘𝚗𝚝 𝙴𝚗𝚍🌱</h1>
 <br>
 <br>
 
@@ -11,29 +11,16 @@ Com sua mãe que possui tosses frequentes e seu pai acamado por uma doença grav
 
 **𝘔𝘪𝘤𝘳𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰🪴**  
 
-Uma das funcionalidades dentro do jogo é o dispositivo para monitoramento de irrigação e estado da horta da personagem. Foi feito um simulador no Wokwi para mostrar como esse dispositivo funcionaria também na vida real.
+Criamos um site que além de permitir a livre jogatina, também traga para o jogador elementos apresentados no game como um incentivo para o consumo de energia limpa. Com abas que não apenas explique alguns do elemento e contruções de materiais da personagem como tabém tutoriais caseiros para os usúaros fazerem em casa.
 
-<hr>
-
-**𝘔𝘢𝘵𝘦𝘳𝘪𝘢𝘪𝘴 𝘜𝘴𝘢𝘥𝘰𝘴 𝘦 𝘴𝘶𝘢𝘴 𝘍𝘶𝘯𝘤𝘪𝘰𝘯𝘢𝘭𝘪𝘥𝘢𝘥𝘦𝘴🍃** 
-
-- Arduino UNO : Sua principal função é servir como uma ponte entre o código para o projeto fisíco.
-- Servo Motor : Simular as irrigação das plantas.
-- Led Vermelho : Alerta de perda da colheita.
-- Led Amarelo : Alerta de possível perda da colheita.
-- Led Verde : Caso esteja em ótimo estado para cada tipo de colheita.
-- Tela LCD : Exibir as Mensagens de cada LED.
-- DHT22 : Lê a umidade e temperatura do ambiente
-- Jumpers macho : Conexão das peças.
-- Resistores de 200 Ω : Sua função é limitar o fluxo de corrente elétrica e ajustar os níveis de tensão, protegendo componentes sensíveis e garantindo o funcionamento correto de dispositivos.
-- Breadboard : Para melhor organização e vizualização.
-- Buzzer : Caso tenha perda ou possivel perda da horta.
-- 
 <hr>
 
 **𝘛𝘦𝘤𝘯𝘰𝘭𝘰𝘨𝘪𝘢𝘴 𝘜𝘵𝘪𝘭𝘪𝘻𝘢𝘥𝘢𝘴🍃**  
 
-- <img src="https://skillicons.dev/icons?i=cpp" />  para comandos do arduino
+- <img src="https://skillicons.dev/icons?i=figma" />  : Para construção e noção basica do site desenvolvido.
+- <img src="https://skillicons.dev/icons?i=css" />  : Para estilzação do site.
+- <img src="https://skillicons.dev/icons?i=js" />  : Para rodamento de algumas funções do site. 
+- <img src="https://skillicons.dev/icons?i=html" />  : Para base de inicio do site.
   
 <hr>
 
@@ -43,7 +30,7 @@ O Arduino servira para fazer uma conexão direta entre o projeto fisíco com o c
 
 <hr>
 
-**𝘗𝘦𝘳𝘥𝘢 𝘥𝘰 𝘈𝘭𝘪𝘮𝘦𝘯𝘵𝘰🍃**
+**𝘗𝘢́𝘨𝘪𝘯𝘢 𝘐𝘯𝘪𝘤𝘪𝘢𝘭 𝘥𝘰 𝘚𝘪𝘵𝘦🍃**
 
 <img src="./assets/perca do alimento.png" alt="imagem" width="600" height="400"/>
 
