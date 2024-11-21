@@ -36,17 +36,15 @@ document
       errorMessage.senha("Usuário ou senha incorretos.");
     }
 
-    // Se não houver erro, exibe mensagem de sucesso
+    // Se estiver certo, exibe mensagem de sucesso
     if (!hasError) {
-      // Mensagem de sucesso
       alert("Login efetuado com sucesso!");
 
-      // Redireciona para a página inicial (home) após 1 segundo
+      // Redireciona para a página home
       setTimeout(function () {
-        window.location.href = "/index.html";  // Substitua "index.html" pela sua página inicial
-      }, 1000); // O redirecionamento acontecerá após 1 segundo
+        window.location.href = "/index.html";
+      }, 1000);
     } else {
-      // Caso haja erro, exibe a mensagem de erro
       alert("Usuário ou senha incorretos.");
     }
   });
