@@ -3,6 +3,7 @@ document
   .addEventListener("submit", function (event) {
     event.preventDefault();
 
+    // Para obter valores dos campos e remove espaços extras
     const nome = document.getElementById("nome").value.trim();
     const senha = document.getElementById("senha").value.trim();
     const email = document.getElementById("email").value.trim();
@@ -10,6 +11,7 @@ document
     const termosConcordados = document.getElementById("meuCheckbox1").checked;
     const inscricaoJogo = document.getElementById("meuCheckbox2").checked;
 
+    // Limpa mensagens de erro anteriores
     document.getElementById("error-name").innerText = "";
     document.getElementById("error-password").innerText = "";
     document.getElementById("error-email").innerText = "";
@@ -17,8 +19,9 @@ document
     document.getElementById("error-checkbox").innerText = "";
     document.getElementById("response-message").innerText = "";
 
-    let hasError = false;
+    let hasError = false; // Verificar se possui erros
 
+    // Para exibir mensagens de erro nos campos
     let errorMessage = {
       nome: (error) => {
         document.getElementById("error-name").innerText = error;
@@ -42,6 +45,7 @@ document
       },
     };
 
+    // Validar
     if (nome.length < 2) {
       errorMessage.nome("O nome deve ter pelo menos 2 letras.");
     }
@@ -65,6 +69,7 @@ document
       errorMessage.checkbox("Você precisa concordar com os termos e condições.");
     }
 
+    // Se não tiver erros, exibe mensagem de sucesso e redireciona
     if (!hasError) {
       alert(
         `Cadastro realizado com sucesso!\n\nDetalhes do Cadastro:\nNome: ${nome}\nEmail: ${email}\nData de Nascimento: ${data}\nInscrição no Jogo: ${inscricaoJogo ? "Sim" : "Não"}\nAceitou os Termos: ${termosConcordados ? "Sim" : "Não"}`
@@ -73,6 +78,7 @@ document
       document.getElementById("response-message").innerText =
         "Cadastro realizado com sucesso! Redirecionando para o menu inicial...";
 
+      // Redireciona após 4 segundos
       setTimeout(function () {
         window.location.href = "/index.html";
       }, 4000);
@@ -80,5 +86,6 @@ document
   });
 
 function validateEmail(email) {
+  // Valida o formato do e-mail
   return email.includes("@") && email.split("@")[1].includes(".");
 }
