@@ -32,6 +32,8 @@ Criamos um site que além de permitir a livre jogatina, também traga para o jog
 
 - <img src="https://skillicons.dev/icons?i=figma" />  : Para construção e noção basica do site desenvolvido.
 
+<hr>
+
 **𝘊𝘰𝘮𝘰 𝘌𝘭𝘦𝘴 𝘍𝘶𝘯𝘤𝘪𝘰𝘯𝘢𝘮 𝘦𝘮 𝘊𝘰𝘯𝘫𝘶𝘯𝘵𝘰🍃**
 
 O Figma funcionara como uma base visual, mas não apenas isso como ele também irá fornecer os códigos para passar para o CSS. Tendo uma base visual o HTMl será a base de estruturação do site, sendo as páginas q iremos vizualizar do site, mas a estilização estará nos códigos CSS onde cada página HTML irá ter sua própria assim como o Java Script terá a sua propria página HTML que irá de conjunto com o CSS. No site criado, o Java Script servirá para mostrar os alerts do site.
@@ -76,6 +78,8 @@ O Figma funcionara como uma base visual, mas não apenas isso como ele também i
 <hr>
 
 **𝘊𝘰𝘮𝘰 𝘌𝘹𝘦𝘤𝘶𝘵𝘢𝘳 𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰🍃**  
+
+Link do site : http://127.0.0.1:5500/
 
 Para executar o projeto localmente por meio de um Fork:
 
