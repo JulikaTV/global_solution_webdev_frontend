@@ -1,5 +1,5 @@
 document
-  .getElementById("contact-form")
+  .getElementById("register-form")
   .addEventListener("submit", function (event) {
     event.preventDefault();
 
@@ -71,10 +71,10 @@ document
       );
 
       document.getElementById("response-message").innerText =
-        "Cadastro realizado com sucesso! Redirecionando para a página de login...";
+        "Cadastro realizado com sucesso! Redirecionando para o menu inicial...";
 
       setTimeout(function () {
-        window.location.href = "login.html";
+        window.location.href = "/index.html";
       }, 4000);
     }
   });
