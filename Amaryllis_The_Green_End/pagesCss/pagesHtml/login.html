@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>𝙰𝚖𝚊𝚛𝚢𝚕𝚕𝚒𝚜 : 𝚃𝚑𝚎 𝙶𝚛𝚎𝚎𝚗 𝙴𝚗𝚍</title>
     <link rel="stylesheet" href="../pagesCss/login.css">
-    
+    <link rel="icon" href="../assets/logo do jogo.png" type="image/png">
 </head>
 <body>
-    <script src="../pagesJavaS/login.js"></script>
+
+    <div class="logo">
+        <div class="amaryllis">
+        <a href="/index.html"> Amaryllis</a>
+        </div>
+        <div class="greenend">
+        <a href="/index.html"> The Green End</a>
+        </div>
+    </div>
+
+    <div class="contatos">
+        <div class="form">
+            <h1>Iniciar sessão</h1>
+
+            <form id="login-form">
+                <div class="preencher">
+                    <div class="area">
+                        <h2>Usuário</h2>
+                        <input type="text" id="nome" name="nome" placeholder="Usuário"> 
+                    </div>
+                    <div id="error-name" class="error-input"></div>
+
+                    <div class="area">
+                        <h2>Senha</h2>
+                        <input type="password" id="senha" name="senha" placeholder="Senha"> 
+                    </div>
+                    <div id="error-password" class="error-input"></div>
+
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="meuCheckbox1" class="checkbox">
+                        <label for="meuCheckbox1">Manter login</label>
+                    </div>
+                    <div id="error-checkbox" class="error-input"></div>
+
+                    <button type="submit">ENTRAR</button>
+                </div>
+            </form>
+            <a href="cadastro.html">Ainda não possuo conta</a>
+            <div id="response-message" class="response-message"></div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
 </body>
 </html>
