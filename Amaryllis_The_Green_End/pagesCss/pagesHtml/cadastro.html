@@ -5,9 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../pagesCss/cadastro.css">
-    
 </head>
 <body>
+
+    <div class="logo">
+        <div class="amaryllis">
+        <a href="index.html"> Amaryllis</a>
+        </div>
+        <div class="greenend">
+        <a href="index.html"> The Green End</a>
+        </div>
+    </div>
+
+    <div class="contatos">
+        <div class="form">
+            <h1>Registrar-se</h1>
+
+            <form id="contact-form">
+                <div class="preencher">
+                    <div class="area">
+                        <h2>Usuário</h2>
+                        <input type="text" id="nome" name="nome" placeholder="Usuário"> 
+                    </div>
+                    <div id="error-name" class="error-input"></div>
+
+                    <div class="area">
+                        <h2>Senha</h2>
+                        <input type="password" id="senha" name="senha" placeholder="Senha"> 
+                    </div>
+                    <div id="error-password" class="error-input"></div>
+
+                    <div class="area">
+                        <h2>E-mail</h2>
+                        <input type="email" id="email" name="email" placeholder="E-mail"> 
+                    </div>
+                    <div id="error-email" class="error-input"></div>
+
+                    <div class="area">
+                        <h2>Data de nascimento</h2>
+                        <input type="date" id="data" name="data" placeholder="Data de nascimento">
+                    </div>
+                    <div id="error-date" class="error-input"></div>
+
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="meuCheckbox1" class="checkbox">
+                        <label for="meuCheckbox1">Eu concordo com os Termos de Uso.</label>
+                    </div>
+                    <div id="error-checkbox" class="error-input"></div>
+
+                    <div class="checkbox-container2">
+                        <input type="checkbox" id="meuCheckbox2" class="checkbox">
+                        <label for="meuCheckbox2">Increva-se para o lançamento do jogo.</label>
+                    </div>
+
+                    <button type="submit">REGISTRAR-SE</button>
+                </div>
+            </form>
+            <div id="response-message" class="response-message"></div>
+        </div>
+    </div>
+
     <script src="../pagesJavaS/cadastro.js"></script>
+    
 </body>
 </html>
