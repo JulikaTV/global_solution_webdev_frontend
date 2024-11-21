@@ -1,18 +1,18 @@
 document
   .getElementById("login-form")
   .addEventListener("submit", function (event) {
-    event.preventDefault(); // // p n ter envio padrão
+    event.preventDefault(); // // Para não ter envio padrão
 
     const nome = document.getElementById("nome").value.trim();
     const senha = document.getElementById("senha").value.trim();
     
-    // para limpar outros erros
+    // Para limpar outros erros
     document.getElementById("error-name").innerText = "";
     document.getElementById("error-password").innerText = "";
 
     let hasError = false;
 
-    // exibe msg de erro
+    // Exibe mensagem de erro
     let errorMessage = {
       nome: (error) => {
         document.getElementById("error-name").innerText = error;
