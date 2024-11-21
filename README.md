@@ -40,43 +40,45 @@ O Figma funcionara como uma base visual, mas não apenas isso como ele também i
 
 **𝘗𝘢́𝘨𝘪𝘯𝘢 𝘐𝘯𝘪𝘤𝘪𝘢𝘭 𝘥𝘰 𝘚𝘪𝘵𝘦🍃**
 
-<img src="./Amaryllis_The_Green_End/pagesCss/assets/inicial.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/inicial.png" alt="imagem" />
 
 <hr>
 
 **𝘊𝘢𝘥𝘢𝘴𝘵𝘳𝘰🍃**
 
-<img src="./Amaryllis_The_Green_End/pagesCss/assets/cadastro.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/cadastro.png" alt="imagem" />
 
 <hr>
   
 **𝘓𝘰𝘨𝘪𝘯🍃**  
 
-<img src="./Amaryllis_The_Green_End/pagesCss/assets/login.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/login.png" alt="imagem" />
 
 <hr>
 
 **𝘋𝘪𝘤𝘢𝘴 - 𝘌𝘯𝘦𝘳𝘨𝘪𝘢 𝘓𝘪𝘮𝘱𝘢🍃** 
 
-<img src="./Amaryllis_The_Green_End/pagesCss/assets/energia.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/energia.png" alt="imagem" />
 
 
 <hr>
 
 **𝘋𝘪𝘤𝘢𝘴 - 𝘚𝘰𝘣𝘳𝘦 𝘰 𝘑𝘰𝘨𝘰🍃** 
 
-<img src="./Amaryllis_The_Green_End/pagesCss/assets/sobre.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/sobre.png" alt="imagem" />
 
 <hr>
 
 **𝘗𝘦𝘳𝘨𝘶𝘯𝘵𝘢𝘴 𝘍𝘳𝘦𝘲𝘶𝘦𝘯𝘵𝘦𝘴🍃**
 
-<img src="./Amaryllis_The_Green_End/pagesCss/assets/perguntas.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/perguntas.png" alt="imagem" />
 
 <hr>
 
 **𝘊𝘰𝘮𝘰 𝘌𝘹𝘦𝘤𝘶𝘵𝘢𝘳 𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰🍃**  
-Para executar o projeto localmente:
+
+Para executar o projeto localmente por meio de um Fork:
+
 1. Copie o códgo apresentado quando apertar o botão "<> Code"
 2. Cole o código no seu Github desktop ou no terminal do seu VSCode utilizando "git clone url_do_repositório_do_site"
 3. Depois de seguir os passos a cima clique na página index.html
