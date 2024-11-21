@@ -40,38 +40,38 @@ O Figma funcionara como uma base visual, mas não apenas isso como ele também i
 
 **𝘗𝘢́𝘨𝘪𝘯𝘢 𝘐𝘯𝘪𝘤𝘪𝘢𝘭 𝘥𝘰 𝘚𝘪𝘵𝘦🍃**
 
-<img src="./assets/perca do alimento.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/inicial.png" alt="imagem" width="600" height="400"/>
 
 <hr>
 
 **𝘊𝘢𝘥𝘢𝘴𝘵𝘳𝘰🍃**
 
-<img src="./assets/cafe.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/cadastro.png" alt="imagem" width="600" height="400"/>
 
 <hr>
   
 **𝘓𝘰𝘨𝘪𝘯🍃**  
 
-<img src="./assets/frutas e hortalicas.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/login.png" alt="imagem" width="600" height="400"/>
 
 <hr>
 
 **𝘋𝘪𝘤𝘢𝘴 - 𝘌𝘯𝘦𝘳𝘨𝘪𝘢 𝘓𝘪𝘮𝘱𝘢🍃** 
 
-<img src="./assets/plantas tropicais.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/energia.png" alt="imagem" width="600" height="400"/>
 
 
 <hr>
 
 **𝘋𝘪𝘤𝘢𝘴 - 𝘚𝘰𝘣𝘳𝘦 𝘰 𝘑𝘰𝘨𝘰🍃** 
 
-<img src="./assets/graos.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/sobre.png" alt="imagem" width="600" height="400"/>
 
 <hr>
 
 **𝘗𝘦𝘳𝘨𝘶𝘯𝘵𝘢𝘴 𝘍𝘳𝘦𝘲𝘶𝘦𝘯𝘵𝘦𝘴🍃**
 
-<img src=".//assets/dados da horta.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/perguntas.png" alt="imagem" width="600" height="400"/>
 
 <hr>
 
