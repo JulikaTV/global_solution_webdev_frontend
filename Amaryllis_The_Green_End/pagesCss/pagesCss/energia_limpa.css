@@ -5,6 +5,17 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Kadwa', serif;
+}
+
+button {
+    border: none; /* Remove borda padrão */
+    outline: none; /* Remove contorno padrão */
+}
+
 body{
     background-image: url(../assets/fundo\ energia\ limpa.png);
     background-size: cover;
@@ -17,11 +28,21 @@ main{
     margin: 5vw; /* Espaçamento ajustado para 5% da largura da tela */
 }
 
-.header{
-    width: 100%; /* Largura total da tela */
-    height: 10vh; /* Altura ajustada para 10% da altura da tela */
-    background: rgba(0, 0, 0, 0.37);
-    position: relative;
+.header {
+    
+    width: 100vw; /* Ocupa toda a largura da janela */
+    height: 16vh; /* Altura relativa à altura da janela */
+    background: rgba(0, 0, 0, 0.37); /* Fundo preto translúcido */
+    position: fixed; /* Fixa o header no topo da página */
+    top: 0; /* Alinha no topo */
+    left: 0; /* Alinha à esquerda */
+    display: flex; /* Ativa o layout flexível */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    justify-content: space-between; /* Espaça os itens uniformemente */
+    padding: 1rem 6.5rem; /* Espaçamento interno 
+     /* Espaço horizontal interno */
+    z-index: 10; /* Garante que o header fique sobre outros elementos */
+
 }
 
 .img-logo{
@@ -78,12 +99,6 @@ main{
     top: 2vh; /* Posição ajustada */
     background: #72A428;
     border-radius: 50px; /* Borda arredondada */
-}
-
-a{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: 'Kadwa', serif;
 }
 
 h1{

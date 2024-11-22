@@ -119,7 +119,7 @@ nav a:hover {
     width: 20vw; /* A largura do elemento será 20% da largura da janela do navegador (responsivo) */
     height: 10vh; /* A altura do elemento será 10% da altura da janela do navegador (responsivo) */
     left: 11.3vw; /* A distância do elemento da borda esquerda será 5% da largura da janela */
-    top: 35.3vh; /* A distância do elemento do topo será 10% da altura da janela */
+    top: 35.9vh; /* A distância do elemento do topo será 10% da altura da janela */
 
     font-family: 'Kadwa', serif; /* Fonte personalizada, usada para garantir um estilo consistente */
     font-size: 1.7rem; /* Tamanho da fonte ajustado para rem (1rem = 16px, responsivo) */
