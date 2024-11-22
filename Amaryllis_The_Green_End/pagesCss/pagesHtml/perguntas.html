@@ -1,13 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="../assets/logo do jogo.png" type="image/x-icon">
+    <title>Perguntas Frequentes</title>
     <link rel="stylesheet" href="../pagesCss/perguntas.css">
     
 </head>
 <body>
+    <header class="header">
+        <img src="../assets/logo do jogo.png" alt="logo" class="img-logo">
+        <nav>
+            <a href="sobre.html" class="link_dicas">DICAS</a>
+            <a href="energia_limpa.html" class="link_energia">ENERGIA LIMPA</a>
+            <a href="perguntas.html" class="link_perguntas">PERGUNTAS FREQUENTES</a>
+            <a href="cadastro.html" class="link_cadastro">CADASTRO</a>
+            <a href="login.html" class="link_login">LOGIN</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>PERGUNTAS FREQUENTES</h1>
+        </section>
+        <section>
+            <article class="card_maior">
+                <form>
+                <label for="categoria">Selecione uma dúvida: </label>
+                <select id="categoria" onchange="mostrarConteudo()">
+                    <option value="">Selecione uma categoria</option>
+                    <option value="Conta e Segurança">Conta e Segurança</option>
+                    <option value="Atualizações">Atualizações</option>
+                    <option value="Público">Público</option>
+                    <option value="Jogabilidade">Jogabilidade</option>
+                </select>        
+                </form>
+
+                <section>
+                    <article class="card_menor" id="conteudo">
+                        <p class="texto_card">
+                            Selecione uma categoria para ver o conteúdo
+                        </p>
+                    </article>
+                </section>
+            </article>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <p id="footer">© 2024 Copyright . Todos os direitos reservados.</p>
+    </footer>
     <script src="../pagesJavaS/perguntas.js"></script>
 </body>
 </html>
