@@ -24,6 +24,16 @@ Criamos um site que além de permitir a livre jogatina, também traga para o jog
   
 <hr>
 
+**𝘗𝘳𝘰𝘨𝘳𝘢𝘮𝘢𝘴 𝘜𝘴𝘢𝘥𝘰𝘴🍃**  
+
+- <img src="https://skillicons.dev/icons?i=vscode" />  : Para linguagens utilizadas
+
+<hr>
+
+- <img src="https://skillicons.dev/icons?i=figma" />  : Para construção e noção basica do site desenvolvido.
+
+<hr>
+
 **𝘊𝘰𝘮𝘰 𝘌𝘭𝘦𝘴 𝘍𝘶𝘯𝘤𝘪𝘰𝘯𝘢𝘮 𝘦𝘮 𝘊𝘰𝘯𝘫𝘶𝘯𝘵𝘰🍃**
 
 O Figma funcionara como uma base visual, mas não apenas isso como ele também irá fornecer os códigos para passar para o CSS. Tendo uma base visual o HTMl será a base de estruturação do site, sendo as páginas q iremos vizualizar do site, mas a estilização estará nos códigos CSS onde cada página HTML irá ter sua própria assim como o Java Script terá a sua propria página HTML que irá de conjunto com o CSS. No site criado, o Java Script servirá para mostrar os alerts do site.
@@ -32,43 +42,47 @@ O Figma funcionara como uma base visual, mas não apenas isso como ele também i
 
 **𝘗𝘢́𝘨𝘪𝘯𝘢 𝘐𝘯𝘪𝘤𝘪𝘢𝘭 𝘥𝘰 𝘚𝘪𝘵𝘦🍃**
 
-<img src="./assets/perca do alimento.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/inicial.png" alt="imagem" />
 
 <hr>
 
 **𝘊𝘢𝘥𝘢𝘴𝘵𝘳𝘰🍃**
 
-<img src="./assets/cafe.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/cadastro.png" alt="imagem" />
 
 <hr>
   
 **𝘓𝘰𝘨𝘪𝘯🍃**  
 
-<img src="./assets/frutas e hortalicas.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/login.png" alt="imagem" />
 
 <hr>
 
 **𝘋𝘪𝘤𝘢𝘴 - 𝘌𝘯𝘦𝘳𝘨𝘪𝘢 𝘓𝘪𝘮𝘱𝘢🍃** 
 
-<img src="./assets/plantas tropicais.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/energia.png" alt="imagem" />
 
 
 <hr>
 
 **𝘋𝘪𝘤𝘢𝘴 - 𝘚𝘰𝘣𝘳𝘦 𝘰 𝘑𝘰𝘨𝘰🍃** 
 
-<img src="./assets/graos.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/sobre.png" alt="imagem" />
 
 <hr>
 
 **𝘗𝘦𝘳𝘨𝘶𝘯𝘵𝘢𝘴 𝘍𝘳𝘦𝘲𝘶𝘦𝘯𝘵𝘦𝘴🍃**
 
-<img src=".//assets/dados da horta.png" alt="imagem" width="600" height="400"/>
+<img src="./Amaryllis_The_Green_End/pagesCss/assets/perguntas.png" alt="imagem" />
 
 <hr>
 
 **𝘊𝘰𝘮𝘰 𝘌𝘹𝘦𝘤𝘶𝘵𝘢𝘳 𝘰 𝘗𝘳𝘰𝘫𝘦𝘵𝘰🍃**  
-Para executar o projeto localmente:
+
+Link do site : [http://127.0.0.1:5500/](https://julikatv.github.io/global_solution_webdev_frontend/)
+
+Para executar o projeto localmente por meio de um Fork:
+
 1. Copie o códgo apresentado quando apertar o botão "<> Code"
 2. Cole o código no seu Github desktop ou no terminal do seu VSCode utilizando "git clone url_do_repositório_do_site"
 3. Depois de seguir os passos a cima clique na página index.html
