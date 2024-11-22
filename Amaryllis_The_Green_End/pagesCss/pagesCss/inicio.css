@@ -1,223 +1,254 @@
-/* Reset de estilo */
+/* Importação de fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&display=swap');
+
+/* Reset de estilos básicos */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove padding padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui bordas e padding no cálculo de largura e altura */
 }
 
+/* Remoção de bordas e contornos de imagens e links */
 img, a {
-    border: none;
-    outline: none;
+    border: none; /* Remove borda padrão */
+    outline: none; /* Remove contorno padrão */
 }
 
+/* Estilo padrão para links */
 a {
-    text-decoration: none;
+    text-decoration: none; /* Remove sublinhado padrão de links */
 }
 
+/* Estilo padrão para botões */
 button {
-    border: none;
-    outline: none;
+    border: none; /* Remove borda padrão */
+    outline: none; /* Remove contorno padrão */
 }
 
 /* Estilo do Header */
 .header {
-    width: 100vw;
-    height: 10vh;
-    background: rgba(0, 0, 0, 0.37);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5vw;
-    z-index: 10;
+    
+    width: 100vw; /* Ocupa toda a largura da janela */
+    height: 16vh; /* Altura relativa à altura da janela */
+    background: rgba(0, 0, 0, 0.37); /* Fundo preto translúcido */
+    position: fixed; /* Fixa o header no topo da página */
+    top: 0; /* Alinha no topo */
+    left: 0; /* Alinha à esquerda */
+    display: flex; /* Ativa o layout flexível */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    justify-content: space-between; /* Espaça os itens uniformemente */
+    padding: 1rem 6.5rem; /* Espaçamento interno 
+     /* Espaço horizontal interno */
+    z-index: 10; /* Garante que o header fique sobre outros elementos */
+
 }
 
 .header .logo {
-    width: 5vw;
-    height: auto;
-    background: url('../assets/logo do jogo.png') no-repeat center;
-    background-size: contain;
+    width: 5vw; /* Largura relativa à largura da janela */
+    height: auto; /* Altura proporcional à largura */
+    background: url('../assets/logo do jogo.png') no-repeat center; /* Insere uma imagem de fundo */
+    background-size: contain; /* Ajusta o tamanho da imagem sem distorção */
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    gap: 2vw;
+    display: flex; /* Layout flexível para o menu de navegação */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    gap: 2vw; /* Espaço entre os links */
 }
 
 nav a {
-    font-family: 'Kadwa', serif;
-    font-size: 1.5rem;
-    color: #FFFFFF;
-    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-    transition: color 0.3s ease;
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #FFFFFF; /* Cor do texto branca */
+    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25); /* Adiciona uma sombra ao texto */
+    transition: color 0.3s ease; /* Transição suave ao mudar a cor */
 }
 
 nav a:hover {
-    color: #72A428;
+    color: #72A428; /* Cor verde ao passar o mouse */
 }
 
 .cadastro-link, .login-link {
-    font-family: 'Kadwa', serif;
-    font-size: 1.2rem;
-    padding: 0.8rem 2rem;
-    border-radius: 2rem;
-    cursor: pointer;
-    color: #FFFFFF;
-    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 1.4rem; /* Tamanho da fonte */
+    padding: 0.2rem 1rem; /* Espaçamento interno */
+    border-radius: 2rem; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para "mão" ao passar o mouse */
+    color: #FFFFFF; /* Cor do texto branca */
+    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25); /* Adiciona sombra ao texto */
 }
 
 .cadastro-link {
-    background: #46562E;
+    background: #46562E; /* Fundo verde escuro */
 }
 
 .login-link {
-    background: #72A428;
+    background: #72A428; /* Fundo verde claro */
 }
 
 .cadastro-link:hover, .login-link:hover {
-    filter: brightness(1.2);
+    filter: brightness(1.2); /* Clareia o botão ao passar o mouse */
 }
 
 /* Estilo da seção principal (Título) */
 .titulo {
-    width: 100vw;
-    height: 100vh;
-    background: url('../assets/Imagem Amaryllis pagina inicial.png') no-repeat center center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 5vw;
-    color: #FFFFFF;
-    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    width: 100vw; /* Ocupa toda a largura da janela */
+    height: 100vh; /* Ocupa toda a altura da janela */
+    background: url('../assets/Imagem Amaryllis pagina inicial.png') no-repeat center center; /* Imagem de fundo centralizada */
+    background-size: cover; /* Cobre toda a área sem distorção */
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    padding: 5vw; /* Espaço interno */
+    color: #FFFFFF; /* Cor do texto branca */
+    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25); /* Adiciona sombra ao texto */
 }
 
 .titulo h1 {
-    font-family: 'Kadwa', serif;
-    font-size: 4.5rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
-    line-height: 1.2;
-    text-align: left;
-    max-width: 50%; /* Ajusta o tamanho do texto */
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 5.5rem; /* Tamanho grande para o título */
+    font-weight: 400; /* Espessura média */
+    margin-bottom: 1rem; /* Espaço inferior */
+    line-height: 1.2; /* Altura da linha */
+    text-align: left; /* Alinha o texto à esquerda */
+    max-width: 50%; /* Limita a largura do texto */
+}
+.titulo h2 {
+    position: absolute; /* Posição do elemento é absoluta, ou seja, será posicionado em relação ao contêiner pai */
+    width: 20vw; /* A largura do elemento será 20% da largura da janela do navegador (responsivo) */
+    height: 10vh; /* A altura do elemento será 10% da altura da janela do navegador (responsivo) */
+    left: 11.3vw; /* A distância do elemento da borda esquerda será 5% da largura da janela */
+    top: 35.3vh; /* A distância do elemento do topo será 10% da altura da janela */
+
+    font-family: 'Kadwa', serif; /* Fonte personalizada, usada para garantir um estilo consistente */
+    font-size: 1.7rem; /* Tamanho da fonte ajustado para rem (1rem = 16px, responsivo) */
+    font-weight: 400; /* Peso da fonte definido como normal */
+    line-height: 3rem; /* Espaçamento entre as linhas de texto, ajustado para garantir boa legibilidade */
+    margin-top: 0rem;
+    text-align: center; /* Alinha o texto ao centro */
+    color: #FFFFFF; /* Define a cor do texto como branco */
+
 }
 
 .titulo p {
-    font-family: 'Kadwa', serif;
-    font-size: 1.5rem;
-    max-width: 40vw;
-    line-height: 1.8rem;
-    margin-top: 1rem;
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    text-align: center;
+    font-size: 1.2rem; /* Tamanho médio para o texto */
+    max-width: 30vw; /* Limita a largura para 40% da janela */
+    line-height: 1.8rem; /* Altura das linhas */
+    margin-top: 4rem; /* Espaço superior */
 }
 
 /* Estilo da seção Solução */
 .solucao {
-    width: 100vw;
-    min-height: 85vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.88) 10%, rgba(0, 0, 0, 0) 40%, #000000 85%), url('../assets/pagina inicial 1.png');
-    background-size: cover;
-    background-position: center;
-    padding: 8vw 10vw; /* Espaço maior em relação ao topo */
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 4vh; /* Espaço entre os elementos internos */
+    width: 135vw; /* Ocupa toda a largura da janela */
+    min-height: 85vh; /* Altura mínima de 85% da altura da janela */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.88) 10%, rgba(0, 0, 0, 0) 40%, #000000 85%), 
+        url('../assets/pagina inicial 1.png'); /* Gradiente sobreposto à imagem de fundo */
+    background-size: cover; /* A imagem cobre toda a área sem distorção */
+    background-position: center; /* Centraliza a imagem */
+    padding: 8vw 5vw; /* Espaçamento interno (superior/inferior e laterais) */
+    color: #FFFFFF; /* Cor do texto branca */
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: normal; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start; /* Alinha os itens no topo */
+    gap: 4vh; /* Espaçamento entre os elementos internos */
 }
 
 .solucao h1 {
-    font-family: 'Kadwa', serif;
-    font-size: 3rem;
-    margin-bottom: 2vh;
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 3rem; /* Tamanho grande para o título */
+    margin-bottom: 2vh; /* Espaço inferior */
 }
 
 .solucao p {
-    font-family: 'Kadwa', serif;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    max-width: 70%;
-    text-align: justify;
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 1.2rem; /* Tamanho médio para o texto */
+    line-height: 1.8rem; /* Altura das linhas */
+    max-width: 70%; /* Limita a largura para 70% da área */
+    text-align: justify; /* Alinha o texto para justificar */
 }
 
 /* Estilo da seção Sobre */
 .sobre {
-    width: 100vw;
-    min-height: 85vh;
-    background: linear-gradient(180deg, #000000 14%, rgba(0, 0, 0, 0.85) 40%, rgba(0, 0, 0, 0.69) 57%, rgba(0, 0, 0, 0.96) 78%), url('../assets/pagina inicial 2.png');
-    background-size: cover;
-    background-position: center;
-    padding: 8vw 5vw; /* Espaço maior em relação ao topo */
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 4vh; /* Espaço entre os elementos internos */
+    width: 135vw; /* Ocupa toda a largura da janela */
+    min-height: 85vh; /* Altura mínima de 85% da altura da janela */
+    background: linear-gradient(180deg, #000000 14%, rgba(0, 0, 0, 0.85) 40%, 
+        rgba(0, 0, 0, 0.69) 57%, rgba(0, 0, 0, 0.96) 78%), 
+        url('../assets/pagina inicial 2.png'); /* Gradiente sobreposto à imagem de fundo */
+    background-size: cover; /* A imagem cobre toda a área sem distorção */
+    background-position: center; /* Centraliza a imagem */
+    padding: 8vw 5vw; /* Espaçamento interno */
+    color: #FFFFFF; /* Cor do texto branca */
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: normal; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start; /* Alinha os itens no topo */
+    gap: 4vh; /* Espaçamento entre os elementos internos */
 }
 
 .sobre h1 {
-    font-family: 'Kadwa', serif;
-    font-size: 3rem;
-    margin-bottom: 2vh;
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 3rem; /* Tamanho grande para o título */
+    margin-bottom: 2vh; /* Espaço inferior */
 }
 
 .sobre p {
-    font-family: 'Kadwa', serif;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    max-width: 70%;
-    text-align: justify;
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 1.2rem; /* Tamanho médio para o texto */
+    line-height: 1.8rem; /* Altura das linhas */
+    max-width: 70%; /* Limita a largura para 70% da área */
+    text-align: justify; /* Alinha o texto para justificar */
 }
 
 /* Estilo do Footer */
 .footer {
-    width: 100vw;
-    padding: 2vh;
-    background: #1A2011;
-    text-align: center;
+    width: 100vw; /* Ocupa toda a largura da janela */
+    padding: 2vh; /* Espaçamento interno vertical */
+    background: #1A2011; /* Fundo escuro */
+    text-align: center; /* Alinha o texto ao centro */
 }
 
 .footer p {
-    color: #FFFFFF;
-    font-family: 'Kadwa', serif;
-    font-size: 1rem;
+    color: #FFFFFF; /* Cor do texto branca */
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 1rem; /* Tamanho pequeno para o texto */
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* Aplica estilos para telas menores que 768px */
     .header {
-        flex-direction: column;
-        height: auto;
-        padding: 5%;
+        flex-direction: column; /* Organiza os itens em coluna */
+        height: auto; /* Ajusta a altura automaticamente */
+        padding: 5%; /* Espaçamento interno */
     }
 
     .titulo {
-        align-items: center;
-        text-align: center;
+        align-items: center; /* Centraliza os itens horizontalmente */
+        text-align: center; /* Centraliza o texto */
     }
 
     .titulo h1 {
-        font-size: 3rem;
+        font-size: 3rem; /* Reduz o tamanho do título */
     }
 
     .titulo p {
-        max-width: 90%;
+        max-width: 90%; /* Aumenta a largura permitida do texto */
     }
 
     .solucao, .sobre {
-        padding: 10%;
+        padding: 10%; /* Aumenta o espaçamento interno */
     }
 
     .solucao h1, .sobre h1 {
-        font-size: 2.5rem;
+        font-size: 2.5rem; /* Reduz o tamanho dos títulos */
     }
 
     .solucao p, .sobre p {
-        font-size: 1rem;
+        font-size: 1rem; /* Reduz o tamanho do texto */
     }
 }
+
+
