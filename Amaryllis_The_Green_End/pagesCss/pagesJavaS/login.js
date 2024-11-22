@@ -42,7 +42,7 @@ document
 
       // Redireciona para a página home
       setTimeout(function () {
-        window.location.href = "/index.html";
+        window.location.href = "../../../index.html";
       }, 1000);
     } else {
       alert("Usuário ou senha incorretos.");
