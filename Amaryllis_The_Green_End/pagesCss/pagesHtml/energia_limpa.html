@@ -3,63 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../pagesCss/energia_limpa.css">
     <link rel="shortcut icon" href="../assets/logo do jogo.png" type="image/x-icon">
-    <title>Dicas - Energia Limpa</title>
-    
+    <title>Dicas - Sobre o jogo</title>
+    <link rel="stylesheet" href="../pagesCss/sobre.css">
 </head>
 <body>
     <header class="header">
-        <img src="../assets/logo do jogo.png" alt="logo" class="img-logo">
+        <a href="../../../index.html"><img src="../assets/logo do jogo.png" alt="logo" class="img-logo"></a>
         <nav>
-            <a href="./sobre.html" class="link_dicas">DICAS</a>
-            <a href="./energia_limpa.html" class="link_energia">ENERGIA LIMPA</a>
-            <a href="./perguntas.html" class="link_perguntas">PERGUNTAS FREQUENTES</a>
-            <a href="./cadastro.html" class="link_cadastro">CADASTRO</a>
-            <a href="./login.html" class="link_login">LOGIN</a>
+            <a href="../pagesHtml/sobre.html" class="link_dicas">DICAS</a>
+            <a href="../pagesHtml/energia_limpa.html" class="link_energia">ENERGIA LIMPA</a>
+            <a href="../pagesHtml/perguntas.html" class="link_perguntas">PERGUNTAS FREQUENTES</a>
+            <a href="../pagesHtml/cadastro.html" class="link_cadastro">CADASTRO</a>
+            <a href="../pagesHtml/login.html" class="link_login">LOGIN</a>
         </nav>
     </header>
-
     <main>
         <h1>Tutorial para produzir tipos de energias limpas</h1>
         
         <section>
-            <form action="" class="forms">
-                <label for="">Filtrar por energia: </label>
-                <input type="text" id="dica" name="dica" placeholder="Digite o tipo de energia:" oninput="filtrarDicas()">
-
+            <form class="forms">
+                <label for="dica">Filtrar por dica: </label>
+                <input type="text" id="dica" name="dica" placeholder="Digite o tipo de dica:" onkeyup="filtrarDicas()">
             </form>
         </section>
-        <section>
-            <article class="cards position-um">
-                <h2>Crie biogás com borras de café!</h2>
-                <p class="texto-cards">Você pode usar as borras de café para criar biogás e fertilizante. Procure pacotes de café abandonados em supermercados. Eles são um recurso valioso para a criação de energia limpa.</p>   
-            </article>
-            <article class="cards position-dois">
-                <h2>Crie biogás com materiais orgânicos!</h2>
-                <p class="texto-cards">O biogás é gerado pela decomposição de materiais orgânicos, como restos de comida, em ambiente sem oxigênio. É uma solução sustentável para produzir energia limpa.</p>
-            </article>
-            <article class="cards position-tres">
-                <h2>Crie um painel solar caseiro!</h2>
-                <p class="texto-cards">Painéis solares convertem a luz do sol em energia elétrica limpa e sustentável, reduzindo impactos ambientais.</p>
-            </article>
-            <article class="cards position-quatro">
-                <h2> Crie Microturbinas eólicas verticais!</h2>
-                <p class="texto-cards">As microturbinas eólicas verticais são compactas e silenciosas, ideais para áreas residenciais com espaço limitado e ventos moderados, convertendo a energia do vento em eletricidade de forma eficiente.</p>
-            </article>
-            <article class="cards position-cinco">
-                <h2>Crie turbinas eólicas horizontais!</h2>
-                <p class="texto-cards">As turbinas horizontais são mais tradicionais e maiores, aproveitando ventos constantes para gerar energia limpa, sendo adequadas para quintais ou áreas com maior fluxo de vento.</p>
-            </article>
-            <article class="cards position-seis">
-                <h2 class="texto-card-seis">Crie captação de energia hidráulica caseira!</h2>
-                <p class="texto-cards">Pequenas turbinas podem aproveitar a força da água em riachos ou sistemas de bombeamento.</p>
-            </article>
+
+        <section id="cards-container">
+            <!--CARDS AQUI-->
         </section>
     </main>
+
     <footer class="footer">
         <p>© 2024 Copyright . Todos os direitos reservados.</p>
     </footer>
-    <script src="../pagesJavaS/energia_limpa.js"></script>
+    <script src="../pagesJavaS/sobre.js"></script>
 </body>
 </html>
