@@ -6,56 +6,33 @@
     <link rel="shortcut icon" href="../assets/logo do jogo.png" type="image/x-icon">
     <title>Dicas - Sobre o jogo</title>
     <link rel="stylesheet" href="../pagesCss/sobre.css">
-    
 </head>
 <body>
     <header class="header">
-        <img src="../assets/logo do jogo.png" alt="logo" class="img-logo">
+        <a href="../../../index.html"><img src="../assets/logo do jogo.png" alt="logo" class="img-logo"></a>
         <nav>
-            <a href="sobre.html" class="link_dicas">DICAS</a>
-            <a href="energia_limpa.html" class="link_energia">ENERGIA LIMPA</a>
-            <a href="perguntas.html" class="link_perguntas">PERGUNTAS FREQUENTES</a>
-            <a href="cadastro.html" class="link_cadastro">CADASTRO</a>
-            <a href="login.html" class="link_login">LOGIN</a>
+            <a href="../pagesHtml/sobre.html" class="link_dicas">DICAS</a>
+            <a href="../pagesHtml/energia_limpa.html" class="link_energia">ENERGIA LIMPA</a>
+            <a href="../pagesHtml/perguntas.html" class="link_perguntas">PERGUNTAS FREQUENTES</a>
+            <a href="../pagesHtml/cadastro.html" class="link_cadastro">CADASTRO</a>
+            <a href="../pagesHtml/login.html" class="link_login">LOGIN</a>
         </nav>
     </header>
-
     <main>
         <h1>Gostaria de conhecer algumas dicas?</h1>
         
         <section>
-            <form action="" class="forms">
-                <label for="">Filtrar por dica: </label>
-                <input type="text" id="dica" name="dica" placeholder="Digite o tipo de dica:">
+            <form class="forms">
+                <label for="dica">Filtrar por dica: </label>
+                <input type="text" id="dica" name="dica" placeholder="Digite o tipo de dica:" onkeyup="filtrarDicas()">
             </form>
         </section>
-        <section>
-            <article class="cards position-um">
-                <h2>O café pode ser mais do que uma bebida.</h2>
-                <p class="texto-cards">Você pode usar as borras de café para criar biogás e fertilizante. Procure pacotes de café abandonados em supermercados. Eles são um recurso valioso para a criação de energia limpa.</p>   
-            </article>
-            <article class="cards position-dois">
-                <h2>A natureza ainda oferece soluções.</h2>
-                <p class="texto-cards">Não subestime o poder dos materiais orgânicos. Restos de alimentos e frutas podem ser usados para gerar biogás, o combustível que pode manter você e sua família aquecidos.</p>
-            </article>
-            <article class="cards position-tres">
-                <h2>A reutilização é sua melhor amiga.</h2>
-                <p class="texto-cards">Em um mundo sem recursos, os objetos recicláveis se tornam preciosos. Tubos plásticos e metais encontrados podem ser usados para criar painéis solares. Explore cuidadosamente.</p>
-            </article>
-            <article class="cards position-quatro">
-                <h2>Cada pessoa tem um história e uma lição.</h2>
-                <p class="texto-cards">Falar com os habitantes locais pode revelar segredos sobre os melhores locais para encontrar materiais ou até sobre antigas tecnologias de enerfia limpa. Sempre busque aprendizados.</p>
-            </article>
-            <article class="cards position-cinco">
-                <h2>Cada pequena ação importa para o futuro.</h2>
-                <p class="texto-cards">Cada escolha que você faz impacta o ambiente. Decisões conscientes sobre como usar os recursos podem ajudar a evitar mais danos ao planeta.</p>
-            </article>
-            <article class="cards position-seis">
-                <h2 class="texto-card-seis">Nem tudo pode ser salvo.</h2>
-                <p class="texto-cards">Não se esqueça de quem nem todo problema tem uma solução imediata. O mundo está longe de ser perfeito, mas seus esforços podem começar a criar um novo caminho.</p>
-            </article>
+
+        <section id="cards-container">
+            <!--CARDS AQUI-->
         </section>
     </main>
+
     <footer class="footer">
         <p>© 2024 Copyright . Todos os direitos reservados.</p>
     </footer>
