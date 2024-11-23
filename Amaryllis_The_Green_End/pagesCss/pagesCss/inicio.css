@@ -125,7 +125,6 @@ nav a:hover {
     font-size: 1.7rem; /* Tamanho da fonte ajustado para rem (1rem = 16px, responsivo) */
     font-weight: 400; /* Peso da fonte definido como normal */
     line-height: 3rem; /* Espaçamento entre as linhas de texto, ajustado para garantir boa legibilidade */
-    margin-top: 0rem;
     text-align: center; /* Alinha o texto ao centro */
     color: #FFFFFF; /* Define a cor do texto como branco */
 

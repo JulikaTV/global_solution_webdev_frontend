@@ -1,33 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove padding padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui bordas e padding no cálculo de largura e altura */
 }
 
-a{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: 'Kadwa', serif;
-}
-
-button {
-    border: none; /* Remove borda padrão */
-    outline: none; /* Remove contorno padrão */
-}
-
-body{
+body {
     background-image: url(../assets/fundo\ energia\ limpa.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #FFFFFF;
 }
-
-main{
-    margin: 5vw; /* Espaçamento ajustado para 5% da largura da tela */
+/* Remoção de bordas e contornos de imagens e links */
+img, a {
+    border: none; /* Remove borda padrão */
+    outline: none; /* Remove contorno padrão */
+}
+main {
+    margin: 6.25rem; /* 100px */
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Kadwa';
+}
+
+/* Estilo padrão para botões */
+button {
+    border: none; /* Remove borda padrão */
+    outline: none; /* Remove contorno padrão */
+}
+
+/* Estilo do Header */
 .header {
     
     width: 100vw; /* Ocupa toda a largura da janela */
@@ -45,152 +52,158 @@ main{
 
 }
 
-.img-logo{
-    width: 6vw; /* Largura ajustada para 6% da largura da tela */
-    height: auto; /* Altura ajustada proporcionalmente */
-    position: absolute;
-    left: 5vw; /* Largura ajustada proporcionalmente */
-    top: 1vh; /* Altura ajustada proporcionalmente */
+.header .img-logo {
+    width: 5vw; /* Largura relativa à largura da janela */
+    height: auto; /* Altura proporcional à largura */
+    background: url('../assets/logo do jogo.png') no-repeat center; /* Insere uma imagem de fundo */
+    background-size: contain; /* Ajusta o tamanho da imagem sem distorção */
 }
 
-.link_dicas, .link_perguntas, .link_energia, .link_cadastro, .link_login{
-    position: absolute;
-    font-size: 1.5rem; /* Tamanho de fonte ajustado para rem */
-    line-height: 3rem; /* Altura da linha ajustada */
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Kadwa', serif;
+nav {
+    display: flex; /* Layout flexível para o menu de navegação */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    gap: 2vw; /* Espaço entre os links */
 }
 
-.link_dicas{
-    width: 15vw; /* Largura ajustada para 15% da largura da tela */
-    height: 6vh; /* Altura ajustada para 6% da altura da tela */
-    left: 15vw; /* Posição ajustada */
-    top: 2vh; /* Posição ajustada */
+nav a {
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #FFFFFF; /* Cor do texto branca */
+    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25); /* Adiciona uma sombra ao texto */
+    transition: color 0.3s ease; /* Transição suave ao mudar a cor */
 }
 
-.link_perguntas{
-    width: 22vw; /* Largura ajustada para 22% da largura da tela */
-    height: 6vh; /* Altura ajustada para 6% da altura da tela */
-    left: 45vw; /* Posição ajustada */
-    top: 2vh; /* Posição ajustada */
+nav a:hover {
+    color: #72A428; /* Cor verde ao passar o mouse */
 }
 
-.link_energia{
-    width: 22vw; /* Largura ajustada para 22% da largura da tela */
-    height: 6vh; /* Altura ajustada para 6% da altura da tela */
-    left: 25vw; /* Posição ajustada */
-    top: 2vh; /* Posição ajustada */
+.link_cadastro, .link_login {
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 1.4rem; /* Tamanho da fonte */
+    padding: 0.2rem 1rem; /* Espaçamento interno */
+    border-radius: 2rem; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para "mão" ao passar o mouse */
+    color: #FFFFFF; /* Cor do texto branca */
+    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25); /* Adiciona sombra ao texto */
 }
 
-.link_cadastro{
-    width: 20vw; /* Largura ajustada para 20% da largura da tela */
-    height: 6vh; /* Altura ajustada para 6% da altura da tela */
-    left: 75vw; /* Posição ajustada */
-    top: 2vh; /* Posição ajustada */
-    border-radius: 50px; /* Borda arredondada */
-    background: #46562E;
+.link_cadastro {
+    background: #46562E; /* Fundo verde escuro */
 }
 
-.link_login{
-    width: 15vw; /* Largura ajustada para 15% da largura da tela */
-    height: 6vh; /* Altura ajustada para 6% da altura da tela */
-    left: 80vw; /* Posição ajustada */
-    top: 2vh; /* Posição ajustada */
-    background: #72A428;
-    border-radius: 50px; /* Borda arredondada */
+.link_login {
+    background: #72A428; /* Fundo verde claro */
 }
 
-h1{
-    font-family: 'Kadwa', serif;
-    font-size: 3rem; /* Tamanho de fonte ajustado para rem */
-    width: 40vw; /* Largura ajustada para 40% da largura da tela */
+.link_cadastro:hover, .link_login:hover {
+    filter: brightness(1.2); /* Clareia o botão ao passar o mouse */
 }
 
-.forms{
-    margin-top: 10vh; /* Espaçamento ajustado para 10% da altura da tela */
-    margin-bottom: 5vh; /* Espaçamento ajustado para 5% da altura da tela */
-    font-size: 1.5rem; /* Tamanho de fonte ajustado para rem */
-    font-family: 'Kadwa', serif;
+h1 {
+    font-family: 'Kadwa';
+    font-size: 2rem; /* 36px */
+    margin-top: 19rem;
+    margin-bottom: 12rem;
+    font-style: normal;
+    width: 29rem; /* 400px */
 }
 
-.cards{
-    width: 25vw; /* Largura ajustada para 25% da largura da tela */
-    height: 30vh; /* Altura ajustada para 30% da altura da tela */
+.forms {
+    margin-top: 5.63rem; /* 90px */
+    margin-bottom: 6rem; /* 50px */
+    font-size: 1.5rem; /* 24px */
+    font-family: 'Kadwa';
+}
+
+.cards {
+    width: 19rem; /* 354px */
+    height: 25.81rem; /* 413px */
+    align-items: normal;
     background: #260E0B;
-    border-radius: 2rem; /* Borda arredondada */
+    border-radius: 2.13rem; /* 34px */
 }
 
-.position-dois, .position-tres, .position-quatro, .position-cinco, .position-seis{
+.position-dois {
     position: relative;
+    left: 23rem; /* 482px */
+    bottom: 25.75rem; /* 412px */
 }
 
-.position-dois{
-    left: 35vw; /* Posição ajustada para 35% da largura da tela */
-    bottom: 30vh; /* Posição ajustada para 30% da altura da tela */
+.position-tres {
+    position: relative;
+    left: 46rem; /* 959px */
+    bottom: 51.63rem; /* 826px */
 }
 
-.position-tres{
-    left: 60vw; /* Posição ajustada para 60% da largura da tela */
-    bottom: 50vh; /* Posição ajustada para 50% da altura da tela */
+.position-quatro {
+    position: relative;
+    bottom: 47.5rem; /* 760px */
 }
 
-.position-quatro{
-    bottom: 70vh; /* Posição ajustada para 70% da altura da tela */
+.position-cinco {
+    position: relative;
+    left: 23rem; /* 482px */
+    bottom: 73rem; /* 1168px */
 }
 
-.position-cinco{
-    left: 35vw; /* Posição ajustada para 35% da largura da tela */
-    bottom: 80vh; /* Posição ajustada para 80% da altura da tela */
+.position-seis {
+    position: relative;
+    left: 46rem; /* 959px */
+    bottom: 99.06rem; /* 1585px */
 }
 
-.position-seis{
-    left: 60vw; /* Posição ajustada para 60% da largura da tela */
-    bottom: 90vh; /* Posição ajustada para 90% da altura da tela */
-}
-
-h2{
-    width: 80%; /* Largura ajustada para 80% da largura do contêiner */
-    height: auto; /* Altura ajustada automaticamente */
+h2 {
+    width: 19rem; /* 335px */
+    height: 6.12rem; /* 96px */
     color: #FFF;
     text-align: center;
-    font-size: 1.5rem; /* Tamanho de fonte ajustado para rem */
-    font-family: 'Kadwa', serif;
-    padding: 2vw; /* Espaçamento ajustado para 2% da largura da tela */
+    font-size: 1.5rem; /* 24px */
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Kadwa';
+    padding: 0rem; /* 10px */
 }
 
-.texto-cards{
-    width: 80%; /* Largura ajustada para 80% da largura do contêiner */
+.texto-cards {
+    width: 19rem; /* 328px */
     color: #FFF;
     text-align: center;
-    font-family: 'Kadwa', serif;
-    font-size: 1.2rem; /* Tamanho de fonte ajustado para rem */
-    line-height: 1.5rem; /* Altura da linha ajustada para legibilidade */
-    padding: 2vw; /* Espaçamento ajustado para 2% da largura da tela */
+    font-family: 'Kadwa';
+    font-size: 1.25rem; /* 20px */
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.63rem; /* 10px */
 }
 
-.texto-card-seis{
+.texto-card-seis {
     position: relative;
-    top: 2vh; /* Posição ajustada para 2% da altura da tela */
+    top: 2.5rem; /* 40px */
 }
 
-input{
-    border-radius: 3rem; /* Bordas arredondadas */
-    width: 50%; /* Largura ajustada para 50% da largura do contêiner */
-    height: 6vh; /* Altura ajustada para 6% da altura da tela */
-    font-size: 1rem; /* Tamanho de fonte ajustado para rem */
-    font-family: 'Kadwa', serif;
+input {
+    border-radius: 4.19rem; /* 67px */
+    width: 15.63rem; /* 250px */
+    height: 2.13rem; /* 34px */
+    position: relative;
+    left: 1.25rem; /* 20px */
+    font-size: 0.94rem; /* 15px */
+    font-family: 'Kadwa';
 }
 
-::placeholder{
-    padding-left: 2vw; /* Espaçamento ajustado para 2% da largura da tela */
+::placeholder {
+    padding-left: 1.25rem; /* 20px */
 }
 
-.footer{
-    background: #1A2011; 
-    text-align: center;
-    width: 100%; /* Largura total da tela */
-    padding: 2vw; /* Espaçamento ajustado para 2% da largura da tela */
-    font-family: 'Kadwa', serif;
-    font-size: 1.5rem; /* Tamanho de fonte ajustado para rem */
+.footer {
+    width: 100vw; /* Ocupa toda a largura da janela */
+    padding: 2vh; /* Espaçamento interno vertical */
+    background: #1A2011; /* Fundo escuro */
+    text-align: center; /* Alinha o texto ao centro */
 }
+
+.footer p {
+    color: #FFFFFF; /* Cor do texto branca */
+    font-family: 'Kadwa', serif; /* Fonte personalizada */
+    font-size: 1rem; /* Tamanho pequeno para o texto */
+}
+
