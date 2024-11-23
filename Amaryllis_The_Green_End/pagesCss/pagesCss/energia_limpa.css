@@ -154,30 +154,30 @@ h1 {
 
 h2 {
     width: 19rem; /* 335px */
-    height: 6.12rem; /* 96px */
+    height: 6rem; /* 96px */
     color: #FFF;
     text-align: center;
-    font-size: 1.5rem; /* 24px */
+    font-size: 1.4rem; /* 24px */
     font-weight: 400;
     line-height: normal;
     font-family: 'Kadwa';
-    padding: 0rem; /* 10px */
+    padding: 0.20rem; /* 10px */
 }
 
 .texto-cards {
-    width: 19rem; /* 328px */
+    width: rem; /* 328px */
     color: #FFF;
     text-align: center;
     font-family: 'Kadwa';
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.20rem; /* 20px */
     font-weight: 400;
     line-height: normal;
-    padding: 0.63rem; /* 10px */
+    padding: 0.5rem; /* 10px */
 }
 
 .texto-card-seis {
     position: relative;
-    top: 2.5rem; /* 40px */
+    top: 2.rem; /* 40px */
 }
 
 input {
