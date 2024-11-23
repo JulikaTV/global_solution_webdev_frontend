@@ -92,7 +92,7 @@ nav a:hover {
 
 /* Estilo da seção principal (Título) */
 .titulo {
-    width: 100vw; /* Ocupa toda a largura da janela */
+    width: 98.66vw;  /* Ocupa toda a largura da janela */
     height: 100vh; /* Ocupa toda a altura da janela */
     background: url('../assets/Imagem Amaryllis pagina inicial.png') no-repeat center center; /* Imagem de fundo centralizada */
     background-size: cover; /* Cobre toda a área sem distorção */
@@ -111,22 +111,22 @@ nav a:hover {
     font-weight: 400; /* Espessura média */
     margin-bottom: 1rem; /* Espaço inferior */
     line-height: 1.2; /* Altura da linha */
-    text-align: left; /* Alinha o texto à esquerda */
-    max-width: 50%; /* Limita a largura do texto */
+    text-align: left; 
+    max-width: 50%; 
 }
 .titulo h2 {
-    position: absolute; /* Posição do elemento é absoluta, ou seja, será posicionado em relação ao contêiner pai */
-    width: 20vw; /* A largura do elemento será 20% da largura da janela do navegador (responsivo) */
-    height: 10vh; /* A altura do elemento será 10% da altura da janela do navegador (responsivo) */
-    left: 11.3vw; /* A distância do elemento da borda esquerda será 5% da largura da janela */
-    top: 35.9vh; /* A distância do elemento do topo será 10% da altura da janela */
+    position: absolute; 
+    width: 20vw; 
+    height: 10vh; 
+    left: 11.3vw; 
+    top: 35.9vh; 
 
-    font-family: 'Kadwa', serif; /* Fonte personalizada, usada para garantir um estilo consistente */
-    font-size: 1.7rem; /* Tamanho da fonte ajustado para rem (1rem = 16px, responsivo) */
-    font-weight: 400; /* Peso da fonte definido como normal */
-    line-height: 3rem; /* Espaçamento entre as linhas de texto, ajustado para garantir boa legibilidade */
-    text-align: center; /* Alinha o texto ao centro */
-    color: #FFFFFF; /* Define a cor do texto como branco */
+    font-family: 'Kadwa', serif; 
+    font-size: 1.7rem; 
+    font-weight: 400; 
+    line-height: 3rem; 
+    text-align: center;
+    color: #FFFFFF; 
 
 }
 
@@ -141,7 +141,7 @@ nav a:hover {
 
 /* Estilo da seção Solução */
 .solucao {
-    width: 135vw; /* Ocupa toda a largura da janela */
+    width: 98.66vw;  /* Ocupa toda a largura da janela */
     min-height: 85vh; /* Altura mínima de 85% da altura da janela */
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.88) 10%, rgba(0, 0, 0, 0) 40%, #000000 85%), 
         url('../assets/pagina inicial 1.png'); /* Gradiente sobreposto à imagem de fundo */
@@ -166,13 +166,13 @@ nav a:hover {
     font-family: 'Kadwa', serif; /* Fonte personalizada */
     font-size: 1.2rem; /* Tamanho médio para o texto */
     line-height: 1.8rem; /* Altura das linhas */
-    max-width: 70%; /* Limita a largura para 70% da área */
+    max-width: 100%; /* Limita a largura para 70% da área */
     text-align: justify; /* Alinha o texto para justificar */
 }
 
 /* Estilo da seção Sobre */
 .sobre {
-    width: 135vw; /* Ocupa toda a largura da janela */
+    width: 98.66vw;  /* Ocupa toda a largura da janela */
     min-height: 85vh; /* Altura mínima de 85% da altura da janela */
     background: linear-gradient(180deg, #000000 14%, rgba(0, 0, 0, 0.85) 40%, 
         rgba(0, 0, 0, 0.69) 57%, rgba(0, 0, 0, 0.96) 78%), 
@@ -198,13 +198,13 @@ nav a:hover {
     font-family: 'Kadwa', serif; /* Fonte personalizada */
     font-size: 1.2rem; /* Tamanho médio para o texto */
     line-height: 1.8rem; /* Altura das linhas */
-    max-width: 70%; /* Limita a largura para 70% da área */
+    max-width: 100%;  /* Limita a largura para 70% da área */
     text-align: justify; /* Alinha o texto para justificar */
 }
 
 /* Estilo do Footer */
 .footer {
-    width: 100vw; /* Ocupa toda a largura da janela */
+    width: 98.66vw; /* Ocupa toda a largura da janela */
     padding: 2vh; /* Espaçamento interno vertical */
     background: #1A2011; /* Fundo escuro */
     text-align: center; /* Alinha o texto ao centro */
