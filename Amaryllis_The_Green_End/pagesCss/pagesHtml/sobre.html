@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="../assets/logo do jogo.png" type="image/x-icon">
+    <title>Dicas - Sobre o jogo</title>
     <link rel="stylesheet" href="../pagesCss/sobre.css">
-    
 </head>
 <body>
+    <header class="header">
+        <a href="../../../index.html"><img src="../assets/logo do jogo.png" alt="logo" class="img-logo"></a>
+        <nav>
+            <a href="../pagesHtml/sobre.html" class="link_dicas">DICAS</a>
+            <a href="../pagesHtml/energia_limpa.html" class="link_energia">ENERGIA LIMPA</a>
+            <a href="../pagesHtml/perguntas.html" class="link_perguntas">PERGUNTAS FREQUENTES</a>
+            <a href="../pagesHtml/cadastro.html" class="link_cadastro">CADASTRO</a>
+            <a href="../pagesHtml/login.html" class="link_login">LOGIN</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Gostaria de conhecer algumas dicas?</h1>
+        
+        <section>
+            <form class="forms">
+                <label for="dica">Filtrar por dica: </label>
+                <input type="text" id="dica" name="dica" placeholder="Digite o tipo de dica:" onkeyup="filtrarDicas()">
+            </form>
+        </section>
+
+        <section id="cards-container">
+            <!--CARDS AQUI-->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Copyright . Todos os direitos reservados.</p>
+    </footer>
     <script src="../pagesJavaS/sobre.js"></script>
 </body>
 </html>

@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../assets/fundo\ sobre\ o\ jogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+main{
+    margin: 6.25rem;
+}
+
+.header{
+    width: 88.688rem;
+    height: 5.813rem;
+    background: rgba(0, 0, 0, 0.37);
+}
+
+.img-logo{
+    width: 5.625rem;
+    height: 5.625rem;
+    position: absolute;
+    left: 5rem;
+    top: 0.1vh;
+}
+
+.link_dicas{
+    position: absolute;
+    width: 9.125rem;
+    height: 3rem;
+    left: 13.25rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.link_perguntas{
+    position: absolute;
+    width: 19.938rem;
+    height: 3rem;
+    left: 42.375rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.link_energia{
+    position: absolute;
+    width: 19.938rem;
+    height: 3rem;
+    left: 21.563rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+
+}
+
+.link_cadastro{
+    position: absolute;
+    width: 8.063rem;
+    height: 3rem;
+    left: 68.438rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+
+    width: 10.063rem;
+    height: 3.125rem;
+    border-radius: 2.25rem;
+    background: #46562E;
+
+}
+
+.link_login{
+    position: absolute;
+    width: 5.438rem;
+    height: 2rem;
+    left: 79.813rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+
+    position: absolute;
+    width: 7.063rem;
+    height: 3.125rem;
+    left: 81.875rem;
+    top: 1.313rem;
+
+    background: #72A428;
+    border-radius: 2.25rem;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Kadwa';
+}
+
+h1{
+    font-family: 'Kadwa';
+    font-size: 2.25rem;
+    font-style: normal;
+    width: 25rem;
+    
+}
+.forms{
+    margin-top: 5.625rem;
+    margin-bottom: 3.125rem;
+    font-size: 1.75rem; 
+    font-family: 'Kadwa';
+}
+
+.cards{
+    width: 22.125rem;
+    height: 25.813rem;
+    background: #260E0B;
+    border-radius: 2.125rem;
+}
+
+h2{
+    width: 20.938rem;
+    height: 6rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Kadwa';
+    padding: 0.625rem;
+}
+
+.texto-cards{
+    width: 20.5rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Kadwa';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.625rem;
+}
+
+.texto-card-seis{
+    position: relative;
+    top: 2.5rem;
+}
+
+input{
+    border-radius: 4.188rem;
+    width: 15.625rem;
+    height: 2.125rem;
+    position: relative;
+    left: 1.25rem;
+    font-size: 0.938rem;
+    font-family: 'Kadwa';
+}
+::placeholder{
+    padding-left: 1.25rem;
+}
+
+.footer{
+    background: #1A2011; 
+    text-align: center;
+    width: 93.688rem;
+    padding: 0.625rem;
+    font-family: 'Kadwa';
+    font-size: 1.25rem;
+}
+
+.position-2{
+    position: relative;
+    left: 30.125rem;
+    bottom: 25.75rem;
+}
+
+.position-3{
+    position: relative;
+    left: 59.938rem;
+    bottom: 51.625rem;
+}
+
+.position-4{
+    position: relative;
+    bottom: 47.5rem;
+}
+
+.position-5{
+    position: relative;
+    left: 30.125rem;
+    bottom: 73rem;
+}
+
+.position-6{
+    position: relative;
+    left: 59.938rem;
+    bottom: 99.063rem;
+}

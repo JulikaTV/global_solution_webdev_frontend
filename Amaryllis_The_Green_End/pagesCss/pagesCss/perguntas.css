@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kadwa:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../assets/fundo\ perguntas\ frequentes.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+main{
+    margin: 6.25rem;
+}
+
+.header{
+    width: 88.688rem;
+    height: 5.813rem;
+    background: rgba(0, 0, 0, 0.37);
+}
+
+.img-logo{
+    width: 5.625rem;
+    height: 5.625rem;
+    position: absolute;
+    left: 5rem;
+    top: 0.063rem;
+}
+
+.link_dicas{
+    position: absolute;
+    width: 9.125rem;
+    height: 3rem;
+    left: 13.25rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.link_perguntas{
+    position: absolute;
+    width: 19.938rem;
+    height: 3rem;
+    left: 42.375rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.link_energia{
+    position: absolute;
+    width: 19.938rem;
+    height: 3rem;
+    left: 21.563rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+
+}
+
+.link_cadastro{
+    position: absolute;
+    width: 8.063rem;
+    height: 3rem;
+    left: 68.438rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+
+    width: 10.063rem;
+    height: 3.125rem;
+    border-radius: 2.25rem;
+    background: #46562E;
+
+}
+
+.link_login{
+    position: absolute;
+    width: 5.438rem;
+    height: 2rem;
+    left: 79.813rem;
+    top: 1.375rem;
+
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+
+    position: absolute;
+    width: 7.063rem;
+    height: 3.125rem;
+    left: 81.875rem;
+    top: 1.313rem;
+
+    background: #72A428;
+    border-radius: 2.25rem;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Kadwa';
+}
+
+h1{
+    color: #FFF;
+    font-family: Kadwa;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 3.75rem;
+}
+
+.card_maior{
+    width: 80.375rem;
+    height: 59.188rem;
+    border-radius: 1.813rem;
+    background: #1A2011;
+
+}
+
+.card_menor{
+    width: 68.875rem;
+    height: 43.5rem;
+    border-radius: 1.813rem;
+    background: #677C46;
+    position: relative;
+    left: 5.938rem;
+
+}
+
+.texto_card{
+    text-align: center;
+    font-family: 'Kadwa';
+    font-size: 2.5rem;
+    width: 32.875rem;
+    position: relative;
+    left:17.5rem;
+    top: 15.625rem;
+}
+
+form{
+    color: #FFF;
+    font-family: Kadwa;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 40px 90px 40px 90px;
+}
+
+select{
+    padding: 0;
+    font-family: 'Kadwa';
+    color: #46562E;
+    font-size: 1.25rem;
+    border-radius: 2.313rem;
+}
+
+input{
+    border-radius: 4.188rem;
+    width: 15.625rem;
+    height: 2.125rem;
+    position: relative;
+    left: 1.25rem;
+    bottom: 0.313rem;
+    font-size: 0.938rem;
+    font-family: 'Kadwa';
+}
+
+::placeholder{
+    padding-left: 1.25rem;
+    color: #46562E;
+}
+
+h2{
+    font-family: 'Kadwa';
+    font-size: 1.875rem;
+    padding: 30px 0px 10px 30px;
+}
+
+p{
+    font-family: 'Kadwa';
+    font-size: 1.5rem;
+    padding: 10px 0px 10px 30px;
+}
+
+
+#footer{
+    background: #1A2011; 
+    text-align: center;
+    width: 93.688rem;
+    padding: 0.625rem;
+    font-family: 'Kadwa';
+    font-size: 1.25rem;
+}
